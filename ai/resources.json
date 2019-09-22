@@ -1,9 +1,23 @@
 [
     {
-        "Title": "Machine Learning 4 Kids: Introducing Machine Learning to Kids",
-        "Link": "https://dalelane.co.uk/blog/?p=3513",
-        "Creator": "Dale Lane",
-        "Type": "Blog Post",
+        "Title": "AI in Schools Report",
+        "Link": "https://docs-edu.govcms.gov.au/documents/ai-schools-report",
+        "Creator": "Australian Government Department of Education",
+        "Type": "Report",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "AIinSchools: Year 9 Scheme of Work",
+        "Link": "http://aiinschools.com/",
+        "Creator": "Beverly Clarke and NVIDIA",
+        "Type": "Teaching Resources",
+        "TargetAudience": "High School Teachers and Students"
+    },
+    {
+        "Title": "AI Programming by Children",
+        "Link": "https://docs.google.com/presentation/d/1QZMyeC0wa6xJ1KIFrQXgzCzO4qKKmb68clNM_nvHFPs/edit#slide=id.g23d2fc05ec_0_0",
+        "Creator": "Ken Kahn",
+        "Type": "Presentation",
         "TargetAudience": "K-12 Teachers"
     },
     {
@@ -12,6 +26,153 @@
         "Creator": "Apps for Good",
         "Type": "Course",
         "TargetAudience": "K-12 Students"
+    },
+    {
+        "Title": "Artificial Intelligence Confronts a 'Reproducibility' Crisis",
+        "Link": "https://www.wired.com/story/artificial-intelligence-confronts-reproducibility-crisis/?utm_source=twitter&utm_medium=social&utm_campaign=onsite-share&utm_brand=wired&utm_social-type=earned",
+        "Creator": "Wired",
+        "Type": "Article",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Can AI Evolve?",
+        "Link": "https://www.youtube.com/watch?v=R9OHn5ZF4Uo",
+        "Creator": "CGP Grey",
+        "Type": "Video",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "CS Field Guide: Artificial Intelligence",
+        "Link": "https://csfieldguide.org.nz/en/chapters/artificial-intelligence/",
+        "Creator": "University of Canterbury",
+        "Type": "Teaching Resources",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "Curiosity Machine: AI Family Challenge",
+        "Link": "https://www.curiositymachine.org/lessons/lesson/",
+        "Creator": "Technovation Families",
+        "Type": "Competition",
+        "TargetAudience": "K-12 Teachers and Parents"
+    },
+    {
+        "Title": "Demystifying Artificial Intelligence",
+        "Link": "https://www.digitaltechnologieshub.edu.au/teachers/professional-learning/webinars/demystifying-artificial-intelligence",
+        "Creator": "Dr Joshua Ho",
+        "Type": "Webinar",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "ECraft2Learn: AI Programming for Snap!",
+        "Link": "https://ecraft2learn.github.io/ai/",
+        "Creator": "Ken Kahn",
+        "Type": "Software",
+        "TargetAudience": "High School Students"
+    },
+    {
+        "Title": "Experiments with Google: AI Experiments",
+        "Link": "https://experiments.withgoogle.com/collection/ai",
+        "Creator": "Google",
+        "Type": "Website",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Future Frontiers – Education for an AI World",
+        "Link": "https://education.nsw.gov.au/our-priorities/innovate-for-the-future/education-for-a-changing-world/future-frontiers-education-for-an-ai-world",
+        "Creator": "NSW Department of Education",
+        "Type": "e-Book",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "HAL Project: Discussion Toolkit",
+        "Link": "https://www.ceia.ie/education-and-skills/hal/",
+        "Creator": "CEIA",
+        "Type": "Teaching Resources",
+        "TargetAudience": "K-6 Students"
+    },
+    {
+        "Title": "How Machines Learn",
+        "Link": "https://www.youtube.com/watch?v=R9OHn5ZF4Uo",
+        "Creator": "CGP Grey",
+        "Type": "Video",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Learning about Machine Learning",
+        "Link": "https://experiments.withgoogle.com/collection/ai",
+        "Creator": "CS4FN",
+        "Type": "Website",
+        "TargetAudience": "K-12 Teachers and Students"
+    },
+    {
+        "Title": "Learn with Google AI",
+        "Link": "https://ai.google/education/",
+        "Creator": "Google",
+        "Type": "Website",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Machine Learning for Kids: Introducing Machine Learning to Kids",
+        "Link": "https://dalelane.co.uk/blog/?p=3513",
+        "Creator": "Dale Lane",
+        "Type": "Blog Post",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "Machine Learning for Kids: Watson Rock, Paper and Scissors",
+        "Link": "https://dalelane.co.uk/blog/?p=3349",
+        "Creator": "Dale Lane",
+        "Type": "Blog Post",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "Machine Learning for Kids: Curated sample training datasets",
+        "Link": "https://dalelane.co.uk/blog/?p=3723",
+        "Creator": "Dale Lane",
+        "Type": "Blog Post",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "scikit-learn: machine learning in Python",
+        "Link": "https://scikit-learn.org/stable/",
+        "Creator": "David Cournapeau",
+        "Type": "Software",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Teaching Artificial Intelligence in Kindergarten",
+        "Link": "https://earlyinsights.org/teaching-artificial-intelligence-in-kindergarten-6296f664bf23",
+        "Creator": "Ann Gadzikowski",
+        "Type": "Article",
+        "TargetAudience": "K-12 Teachers"       
+    },
+    {
+        "Title": "Teaching Artificial Intelligence in the Primary Classroom",
+        "Link": "https://csermoocs.appspot.com/ai_primary",
+        "Creator": "CSER Adelaide",
+        "Type": "Course",
+        "TargetAudience": "K-6 Teachers"
+    },
+    {
+        "Title": "Teaching Artificial Intelligence in the Secondary Classroom",
+        "Link": "https://csermoocs.appspot.com/ai_secondary",
+        "Creator": "CSER Adelaide",
+        "Type": "Course",
+        "TargetAudience": "High School Teachers"
+    },
+    {
+        "Title": "Toward ethical, transparent and fair AI/ML: a critical reading list",
+        "Link": "https://medium.com/@eirinimalliaraki/toward-ethical-transparent-and-fair-ai-ml-a-critical-reading-list-d950e70a70ea",
+        "Creator": "Eirini Malliaraki",
+        "Type": "Article",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Understanding the four types of AI, from reactive robots to self-aware beings",
+        "Link": "https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616 ",
+        "Creator": "Arend Hintze",
+        "Type": "Article",
+        "TargetAudience": "K-12 Teachers"
     }
 ]
 

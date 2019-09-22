@@ -3,8 +3,11 @@ articleCheckbox,Article
 blogPostCheckbox,Blog Post
 competitionCheckbox,Competition
 courseCheckbox,Course
+eBookCheckbox,e-Book
 presentationCheckbox,Presentation
 reportCheckbox,Report
 softwareCheckbox,Software
+teachingResourcesCheckbox,Teaching Resources
 videoCheckbox,Video
+webinarCheckbox,Webinar
 websiteCheckbox,Website

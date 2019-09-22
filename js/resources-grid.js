@@ -8,21 +8,28 @@ $(document).ready(function () {
         return formattedLink
     }
 
+    // Function for sorting the resources alphabetically by titles
+    function sortResourceByTitle(a, b) {
+        var textA = a.Title.toUpperCase();
+        var textB = b.Title.toUpperCase();
+        return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+    }
+
     // Create the grid on the page and load all of the resource data
     $("#jqGrid").jqGrid({
         url: 'resources.json',
         datatype: "json",
         colModel: [
             { label: 'Resource', name: 'Title', width: 250, formatter: resourceLinkFormatter },
-            { label: 'Creator', name: 'Creator', width: 90 },
             { label: 'Type', name: 'Type', width: 100 },
+            { label: 'Creator', name: 'Creator', width: 90 },
             { label: 'Target Audience', name: 'TargetAudience', width: 80 }    
         ],
         viewrecords: true, // show the current page, data rang and total records on the toolbar
         autowidth: true,
         loadonce: true,
-        height: 400,
-        rowNum: 30,
+        height: 350,
+        rowNum: 7,
         pager: "#jqGridPager",
         emptyrecords: "There are no resources for selected resource type/s."
     });
@@ -33,24 +40,22 @@ $(document).ready(function () {
     $('#next_jqGridPager').removeClass('ui-pg-button').addClass('fas fa-angle-right');
     $('#last_jqGridPager').removeClass('ui-pg-button').addClass('fas fa-angle-double-right');
 
-
     // A click event for the checkboxes that are used to filter the grid of resources
     $('.grid-filter-checkbox').click(function() {
 
         // Start with an ajax call to get all of the resources
         $.get('resources.json', function(allResources) {
 
-
             var allFilters = $('.grid-filter-checkbox');
             var checkedFilters = $('.grid-filter-checkbox:checked');
 
             if (checkedFilters.length == 0 || checkedFilters.length == allFilters.length) {    
                 // If there are no filters selected or all of the filters selected, simply show all resources
+                allResources.sort(sortResourceByTitle);
                 $('#jqGrid').clearGridData();
                 $('#jqGrid').jqGrid('setGridParam', { 'data': allResources });
                 $('#jqGrid').trigger('reloadGrid');
             } else {
-
                 // If there are one or more filters selected, then we have to filter to relevant resources
                 var filteredResources = [];
                 $.each(checkedFilters, function(index, filterCheckbox) {
@@ -62,13 +67,12 @@ $(document).ready(function () {
                     for (var i = 0; i < allResources.length; i++) {
                         var resource = allResources[i];
                         if (resource.Type == label.text()) {
-                            console.log(label.text())
                             filteredResources.push(resource);
                         }
                     }
                 });
                 // After adding all of the relevant resources, change the data for the grid to that array
-                //var resourcesData = { 'rows': filteredResources };
+                filteredResources.sort(sortResourceByTitle);
                 $('#jqGrid').clearGridData();
                 $('#jqGrid').jqGrid('setGridParam', { 'data': filteredResources });
                 $('#jqGrid').trigger('reloadGrid');
@@ -86,7 +90,8 @@ $(document).ready(function () {
         });
 
         // Do an ajax request to get all of the resources, set the grid's data to this and reload the grid
-        $.get('data.json', function(allResources) {
+        $.get('resources.json', function(allResources) {
+            $('#jqGrid').clearGridData();
             $('#jqGrid').jqGrid('setGridParam', { 'data': allResources });
             $('#jqGrid').trigger('reloadGrid');
         });
