@@ -1,0 +1,40 @@
+{% assign current = page.url | split: '/' %}
+
+
+<div id = "navigation-header">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="{{ site.baseurl | append: '/' }}">
+      {{ site.title }}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if page.url contains site.ai_path %} active {% endif %}">
+          <a class="nav-link topic-link" href="{{ site.baseurl | append: site.ai_path }}">AI<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item {% if page.url contains site.vr_path %} active {% endif %}">
+          <a class="nav-link topic-link" href="{{ site.baseurl | append: site.vr_path }}">VR</a>
+        </li>
+        {% if page.url contains site.ai_path or page.url contains site.vr_path %}
+          <span class="nav-separator">|</span>
+          <li class="nav-item {% if page.url == '/ai/' or page.url == '/vr/' %} active {% endif %}">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] }} ">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item {% if page.url contains site.sessions_path and current.size < 4 %} active {% endif %}">
+            <a class="nav-link" href="sessions">Sessions</a>
+          </li>
+          <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
+            <a class="nav-link" href="resources">Resources</a>
+          </li>
+          {% if current.size == 4 %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">{{ page.title }}</a>
+          </li>
+          {% endif %}
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+</div>

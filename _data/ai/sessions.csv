@@ -1,0 +1,10 @@
+time,title,active,link
+9:00am - 9:15am,Registration and Introductions,Yes,
+9:15am - 9:45am,What is Artificial Intelligence?,Yes,what_is_ai
+9:45am - 10:45am,Solving Problems with Machine Learning,Yes,solving_problems
+10:45am - 11:00am,Morning Tea,No,
+11:00am - 11:45am,Representing Data and Identifying Features,Yes,data_representation
+11:45am - 12:30pm,Creating and Testing a Classifier,Yes,classifying
+12:30pm - 1:00pm,Lunch,No,
+1:00pm - 1:45pm,How do Computers Learn?,Yes,learn
+1:45pm - 3:00pm,Solving More Problems with Machine Learning,Yes,more_problem

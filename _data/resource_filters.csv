@@ -1,0 +1,10 @@
+id,label
+articleCheckbox,Article
+blogPostCheckbox,Blog Post
+competitionCheckbox,Competition
+courseCheckbox,Course
+presentationCheckbox,Presentation
+reportCheckbox,Report
+softwareCheckbox,Software
+videoCheckbox,Video
+websiteCheckbox,Website

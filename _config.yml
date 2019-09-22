@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "CS4S @ UON 2019"
+email: "daniel.hickmott@uon.edu.au"
+contact: "Daniel Hickmott"
+baseurl: "/2019"
+
+# Content Pages Paths
+glossary_path: "/glossary"
+resources_path: "/resources"
+sessions_path: "/sessions"
+
+# AI paths
+ai_path: "/ai/"
+
+# VR paths
+vr_path: "/vr/"
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+
+    <main role="main" class="container">
+      <div id="content">
+        {{ content }}
+    </div>
+      {% include footer.html %}
+    </main>
+
+  </body>
+
+  {% include scripts.html %}
+
+  <script src="{{ '/js/jquery.jqGrid.min.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script>
+      $.jgrid.defaults.width = 780;
+      $.jgrid.defaults.styleUI = 'Bootstrap';
+    </script>
+  <script src="{{ '/js/resources-grid.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+  <script src="{{ '/js/i18n/grid.locale-en.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+  
+</html>
