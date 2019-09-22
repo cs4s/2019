@@ -14,8 +14,8 @@ title: CS4S @ UON 2019 - AI Schedule
     		<div class="row py-2">
   			{% endif %}
 				<div class='form-check form-check-inline'>
-					<input class=' form-check-input grid-filter-checkbox' type='checkbox' id='{{ filter.id }}'>
-					<label class='form-check-label' for='articleCheckbox'>{{ filter.label }}</label>
+					<input class='form-check-input grid-filter-checkbox' type='checkbox' id='{{ filter.id }}'>
+					<label class='form-check-label' for='{{ filter.id }}'>{{ filter.label }}</label>
 				</div>
 			{% if mod_index == '2' or forloop.last %}
 			</div>
