@@ -3,9 +3,9 @@ layout: default
 title: CS4S @ UON 2019 - AI Schedule
 ---
 
-# AI Workshop
+## AI Sessions
 
-##  Schedule
+### Schedule
 
 <table class="table table-striped table-bordered">
 	<thead>

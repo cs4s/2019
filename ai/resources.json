@@ -133,6 +133,13 @@
         "TargetAudience": "K-12 Teachers"
     },
     {
+        "Title": "Raspberry Pi Foundation: Scratch Machine Learning",
+        "Link": "https://projects.raspberrypi.org/en/pathways/scratch-machine-learning",
+        "Creator": "Raspberry Pi Foundation",
+        "Type": "Teaching Resources",
+        "TargetAudience": "K-12 Teachers"
+    },
+    {
         "Title": "scikit-learn: machine learning in Python",
         "Link": "https://scikit-learn.org/stable/",
         "Creator": "David Cournapeau",

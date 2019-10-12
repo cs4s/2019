@@ -1,7 +1,12 @@
 ---
 layout: resources
-title: CS4S @ UON 2019 - AI Schedule
+title: CS4S @ UON 2019 - AI Resources
 ---
+## AI Resources
+
+### About 
+
+### Resources
 
 <fieldset class='border px-5 py-3'>
 	<strong>Filter by Resource Type:</strong>
