@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "Amazon Sumerian",
+        "Link": "https://aws.amazon.com/sumerian/",
+        "Creator": "Amazon",
+        "Type": "Software",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "An Intro to WebVR: Starter Kit",
+        "Link": "https://glitch.com/culture/an-intro-to-webvr/",
+        "Creator": "Glitch",
+        "Type": "Course",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "AR.js - Augmented Reality for the Web",
+        "Link": "https://github.com/jeromeetienne/AR.js",
+        "Creator": "Jerome Etienne",
+        "Type": "Software",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "A-Frame School",
+        "Link": "https://aframe.io/aframe-school/#/",
+        "Creator": "A-Frame",
+        "Type": "Teaching Resources",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "CoSpaces Edu",
+        "Link": "https://cospaces.io/edu/",
+        "Creator": "Delightex",
+        "Type": "Software",
+        "TargetAudience": "K-12 Teachers and Students"
+    },
+    {
+        "Title": "Frame Academy",
+        "Link": "https://learn.framevr.io/",
+        "Creator": "Gabriel Baker",
+        "Type": "Course",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Google Blocks",
+        "Link": "https://vr.google.com/blocks/",
+        "Creator": "Google",
+        "Type": "Software",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Google Tour Creator",
+        "Link": "https://vr.google.com/tourcreator/ ",
+        "Creator": "Google",
+        "Type": "Software",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Is Oculus Go ready for enterprise and education?",
+        "Link": "http://talesfromtherift.com/is-oculus-go-ready-for-enterprise-and-education/",
+        "Creator": "Tales From the Rift",
+        "Type": "Blog Post",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "So you want to get started with AR.js",
+        "Link": "https://dev.to/aschmelyun/so-you-want-to-get-started-with-ar-js-22e2",
+        "Creator": "Andrew Schmelyun",
+        "Type": "Blog Post",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "VR School",
+        "Link": "https://vrschoolresearch.com/",
+        "Creator": "VR School Research Team",
+        "Type": "Website",
+        "TargetAudience": "K-12 Teachers"
+    }
+]
+

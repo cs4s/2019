@@ -3,7 +3,9 @@ layout: default
 title: CS4S @ UON 2019 - VR Schedule
 ---
 
-## VR Workshop Schedule
+## VR Sessions
+
+### Schedule
 
 <table class="table table-striped table-bordered">
 	<thead>
