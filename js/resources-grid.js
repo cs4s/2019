@@ -34,6 +34,13 @@ $(document).ready(function () {
         emptyrecords: "There are no resources for selected resource type/s."
     });
 
+    // Do an ajax request to get all of the resources, set the grid's data to this and reload the grid
+    $.get('resources.json', function(allResources) {
+        $('#jqGrid').clearGridData();
+        $('#jqGrid').jqGrid('setGridParam', { 'data': allResources });
+        $('#jqGrid').trigger('reloadGrid');
+    });
+
     // The jqrid uses glyphicons but we have used font-awesome icons instead (could be done in a better way)
     $('#first_jqGridPager').removeClass('ui-pg-button').addClass('fas fa-angle-double-left');
     $('#prev_jqGridPager').removeClass('ui-pg-button').addClass('fas fa-angle-left');
