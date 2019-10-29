@@ -3,8 +3,8 @@ time,title,active,link
 9:15am - 9:45am,Artificial Intelligence and Machine Learning,Yes,intro
 9:45am - 10:45am,Training an Assistant,Yes,assistant
 10:45am - 11:00am,Morning Tea,No,
-11:00am - 11:45am,Representing Data and Identifying Features,Yes,data_representation
-11:45am - 12:30pm,Creating and Testing a Classifier,Yes,classifying
+11:00am - 11:45am,Representing and Collecting Data,Yes,data
+11:45am - 12:30pm,Journey to School,Yes,journey
 12:30pm - 1:00pm,Lunch,No,
 1:00pm - 1:45pm,How do Computers Learn?,Yes,learn
 1:45pm - 3:00pm,Solving More Problems with Machine Learning,Yes,more_problem
