@@ -22,7 +22,7 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 # Collecting the Appropriate Data
 
 - We train Machine Learning models with *observations* (a data point - an album)
-- These *observations* have different *attributes* (e.g. number of sales of an album)
+- These *observations* have different *attributes* (e.g. money spent on advertising)
 - The *attributes* should some impact on the studied outcome (usually established through previous research)
 - Bad example: [Ice Cream Sales linked to Drowning Deaths](https://www.lifehack.org/624604/the-most-common-bias-people-have-that-leads-to-wrong-decisions)
 
@@ -41,7 +41,7 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 - A wide variety of examples can improve our Machine Learning models' accuracy
 - Like a survey, we want to collect data from a representative sample (e.g. across ages, genders, income)
 - A model that is trained on images could need a variety of images in a variety of lighting conditions
-	- Mistakes could be made, e.g. small dogs recognised as cats
+	- Mistakes could be made, e.g. animals in grass vs snow
 	
 ---
 
@@ -74,6 +74,16 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 
 ---
 
-[Image of clusters]
+![inline](clusters.png)
+
+---
+
+# Journey to School
+
+- Next, we will work through an another Machine Learning for Kids activity: Journey to School
+- Involves collecting data (*observations*) through a survey
+- Each *observation* has *attributes*
+- We will use these *observations* to train a model to predict whether a student travelled to school by car, bike, walking or bus
+
 
 
