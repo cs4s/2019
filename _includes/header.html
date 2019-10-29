@@ -23,10 +23,10 @@
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] }} ">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item {% if page.url contains site.sessions_path and current.size < 4 %} active {% endif %}">
-            <a class="nav-link" href="sessions">Sessions</a>
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/sessions' }}">Sessions</a>
           </li>
           <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
-            <a class="nav-link" href="resources">Resources</a>
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/resources' }}">Resources</a>
           </li>
           {% if current.size == 4 %}
           <li class="nav-item active">
