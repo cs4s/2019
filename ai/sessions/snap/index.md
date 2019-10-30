@@ -7,20 +7,23 @@ title: "Snap!"
 
 ### About
 
+In this session you will create some playing cards and then train a model to recognise which suit (spades, clubs, hearts or diamonds) a card is.
+You will then use this model and *Scratch* coding to create your own version of the *Snap!* card game.
+
 ### Key Terms
 
-artificial intelligence, classification, clustering, supervised learning, unsupervised learning, reinforcement learning, 
+[bucket](){: .term }, [classification](){: .term }, [computer vision](){: .term }, [supervised learning](){: .term } 
 
 ### Presentations
 
-- [Training a Smart Assistant](){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
+- [Snap!](presentation/snap.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ### Activities
 
-- [Raspberry Pi Foundation: Smart Classroom Assistant](https://projects.raspberrypi.org/en/projects/smart-classroom){: class="text-info" target="_blank" } <i class="fas fa-link session-icon"></i>
+- [Machine Learning for Kids: Snap! Student's Worksheet](snap_activity_student_worksheet.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
+- [Machine Learning for Kids: Snap! Teacher's Notes](snap_activity_teacher_notes.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ### Links
 
 - [Machine Learning for Kids Homepage](https://machinelearningforkids.co.uk/){: class="text-info" target="_blank" } <i class="fas fa-link session-icon"></i>
-- [Raspberry Pi Foundation: Scratch Machine Learning Projects](https://projects.raspberrypi.org/en/pathways/scratch-machine-learning){: class="text-info" target="_blank" } <i class="fas fa-link session-icon"></i>
-- [IBM Watson Pricing](https://www.ibm.com/cloud/watson-assistant/pricing/){: class="text-info" target="_blank" } <i class="fas fa-link session-icon"></i>
+- [Machine Learning for Kids: Worksheets](https://machinelearningforkids.co.uk/#!/worksheets){: class="text-info" target="_blank" } <i class="fas fa-link session-icon"></i>
