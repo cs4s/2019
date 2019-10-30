@@ -28,6 +28,10 @@ Blank definition
 
 Blank definition
 
+### Computer Vision
+
+Blank definition
+
 ### General AI
 
 Blank definition
