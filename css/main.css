@@ -315,4 +315,11 @@ a.topic-link {
   color:rgba(0,0,0,0.5);
 }
 
+a.term:hover {
+  color: #1d6fa5;
+}
+
+a.term {
+  color: #3498DB
+}
 

@@ -28,6 +28,9 @@
           <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/resources' }}">Resources</a>
           </li>
+          <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/glossary' }}">Glossary</a>
+          </li>
           {% if current.size == 4 %}
           <span class="nav-separator">|</span>
           <li class="nav-item active">
