@@ -323,3 +323,17 @@ a.term {
   color: #3498DB
 }
 
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}
+
+.step-icon {
+  padding: 0rem 0.3rem;
+}
+
+
+
