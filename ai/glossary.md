@@ -12,6 +12,10 @@ For more extensive and detailed definitions of terms relevant to *Artificial Int
 
 Blank definition
 
+### Attribute
+
+Blank definition
+
 ### Bucket
 
 Blank definition
@@ -37,6 +41,10 @@ Blank definition
 Blank definition
 
 ### Narrow AI 
+
+Blank definition
+
+### Observation
 
 Blank definition
 
