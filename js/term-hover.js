@@ -20,7 +20,7 @@ $(document).ready(function() {
 	var temp_div = $('<div>');
 	temp_div.load("../../glossary", function() {
 		$.each(term_ids, function(index, term_id) {
-			var glossary_term_elements = $("#" + term_id, temp_div).nextUntil('h3');
+			var glossary_term_elements = $("#" + term_id, temp_div).nextUntil('h2');
 			var glossary_term_preview = glossary_term_elements[0];
 			var term_template_div = $("#" + term_id + "-template");
 			term_template_div.html(glossary_term_preview);

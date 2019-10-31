@@ -2,11 +2,15 @@
 layout: resources
 title: CS4S @ UON 2019 - AI Resources
 ---
-## AI Resources
+# AI Resources
 
-### About 
+## About 
 
-### Resources
+We have included a list of resources on this page.
+The resources include online courses, articles, videos and websites.
+You can filter the list by clicking each of the resource type checkboxes in the panel below.
+
+## Resources
 
 <fieldset class='border px-5 py-3'>
 	<strong>Filter by Resource Type:</strong>

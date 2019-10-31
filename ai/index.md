@@ -3,9 +3,9 @@ layout: default
 title: CS4S @ UON 2019 - AI About
 ---
 
-## AI Workshop
+# AI Workshop
 
-### About
+## About
 
 *Artificial Intelligence* (AI) is already part of our daily lives.
 For example, you may be assisted by AI when shopping, travelling or finding information online.
@@ -24,7 +24,7 @@ In this workshop you will learn:
 - How the representation and collection of data used when 'teaching' a computer impacts how computers learn
 - Where to find more resources for extending your knowledge of *Machine Learning* and AI after the workshop
 
-### Essential Steps
+## Essential Steps
 
 In this workshop we have identified 5 essential steps in the process of developing *Machine Learning* solutions.
 There are other lists of steps that other authors have created, such as [Yufeng Guo's 7 Steps of Machine Learning](https://www.techleer.com/articles/379-the-seven-steps-of-machine-learning/){: class="text-info" target="_blank" } and [Aurélien Géron's Machine Learning Project Checklist](https://www.kdnuggets.com/2018/12/machine-learning-project-checklist.html){: class="text-info" target="_blank" }, which are similar to the steps we have listed below.
@@ -40,7 +40,7 @@ You can click the *More Details* button to show more information about each of t
 We have included some notes in the details sections that you would probably want to be aware of during each of the steps as well.
 
 {% for step in site.data.ai.steps %}
-<h4>{{ step.title }}</h4>
+<h3>{{ step.title }}</h3>
 <p>
   <button class="btn btn-outline-info collapsed" type="button" data-toggle="collapse" data-target="#collapse-{{ step.id }}" aria-expanded="false" aria-controls="collapseExample">
     <span class="if-not-collapsed">
