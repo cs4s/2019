@@ -24,6 +24,8 @@ In this workshop you will learn:
 - How the representation and collection of data used when 'teaching' a computer impacts how computers learn
 - Where to find more resources for extending your knowledge of *Machine Learning* and AI after the workshop
 
+You can see the schedule for the Workshop on the [Sessions](sessions){: .text-info} page.
+
 ## Essential Steps
 
 In this workshop we have identified 5 essential steps in the process of developing *Machine Learning* solutions.
