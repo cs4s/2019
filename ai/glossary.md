@@ -50,6 +50,7 @@ For more information about *Computer Vision*, see the [Computer Science Field Gu
 ## General AI
 
 A category of AI types that we only see in Science Fiction movies and that may never exist in the real world.
+
 *General AI* includes two types of AI: *Theory of mind* and *Self-awareness*.
 *Theory of mind* AI is AI that has has the "understanding that people, creatures and objects in the world can have thoughts and emotions that affect their own behavior."
 *Self-awareness* AI have this understanding as well but also "are aware of themselves, know about their internal states, and are able to predict feelings of others." (like HAL 9000 in the film [2001: A Space Odyssey](https://en.wikipedia.org/wiki/HAL_9000){: class="text-info" target="_blank" }).
@@ -74,6 +75,7 @@ Consequently, it is important that we model the problem appropriately by choosin
 ## Narrow AI 
 
 A category of AI types that can solve narrow and specific problems (such as playing chess), which are the most common types of AI that exist today.
+
 *General AI* includes two types of AI: *Reactive Machines* and *Limited Memory*.
 *Reactive Machines* are the most common types of AI, which only have a representation a problem of one point in time.
 That type of AI does not have any memory but can use data to predict what will happen in the future (for example, the moves an opposing chess player may make).
@@ -90,6 +92,7 @@ Another example of an observation would be an individual student in a data set t
 ## Regression 
 
 A method for finding the relationship between different *variables* (or [attributes](#attribute){: .text-info }) in a model, which can give us a mathematical equation of the *'line of best fit'*.
+
 There are a variety of different types of *regression*, including *linear regression* and *logistic regression*.
 *Linear regression* can be useful for answering questions that involve numbers.
 For example, we could predict album sales with a *linear regression* model that estimates how many sales we will get for a given amount of money spent on advertising.
