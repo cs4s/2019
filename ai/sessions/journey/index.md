@@ -16,7 +16,7 @@ We will then use this collected data to train a model that predicts how a partic
 
 ## Presentations
 
-- [Journey to School](presentation/journey.pdf){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
+- [Journey to School](presentation/journey.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ## Activities
 

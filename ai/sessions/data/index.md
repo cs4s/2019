@@ -16,7 +16,7 @@ You will also learn about how to find and create data sets that you could use fo
 
 ## Presentations
 
-- [Representing and Collecting Data](presentation/data.pdf){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
+- [Representing and Collecting Data](presentation/data.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ## Links
 

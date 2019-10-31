@@ -16,7 +16,7 @@ You will then use *Machine Learning for Kids* and *Scratch* code to create a 'sm
 
 ## Presentations
 
-- [Training a Smart Assistant](presentation/training_a_smart_assistant.pdf){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
+- [Training a Smart Assistant](presentation/training_a_smart_assistant.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ## Activities
 
