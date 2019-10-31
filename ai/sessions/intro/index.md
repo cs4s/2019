@@ -16,8 +16,8 @@ You will learn about the main types of *Machine Learning* solutions and about ex
 
 ## Presentations
 
-- [Introductions and Workshop Aims](){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
-- [Artificial Intelligence and Machine Learning](){: .text-info } <i class="fas fa-file-pdf session-icon"></i>
+- [Introductions and Workshop Aims](presentation/introductions/intro.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
+- [Artificial Intelligence and Machine Learning](presentation/ai_and_ml/ai_and_ml.pdf){: class="text-info" target="_blank" } <i class="fas fa-file-pdf session-icon"></i>
 
 ## Examples
 

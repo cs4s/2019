@@ -191,8 +191,8 @@ Find an example of how AI or ML is applied in one of the following areas and exp
 
 # Steps in Developing ML Solutions
 
-1. Identifying a problem
-2. Modelling the problem
+1. Identifying a Problem
+2. Modelling the Problem
 4. Collecting the Data
 5. Training the Model
 6. Evaluating the Model
@@ -207,11 +207,31 @@ Find an example of how AI or ML is applied in one of the following areas and exp
 - Statistical models[^1]
 - We gather 'real world' data and define variables that 'model' a phenomenon
 
-[^1]: Andy Field's Discovering Statistics Using SPSS explains these really well
+[^1]: Andy Field's 'Discovering Statistics Using SPSS' explains these really well
+
+---
+# Album Sales
+
+- Amounts in 1000s
+
+| Ad $ | Sales |
+|------|-------|
+| 10   | 35    |
+| 20   | 90    |
+| 30   | 130   |
+| 40   | 150   |
+
+![right 40%](sales_plot.png)
 
 ---
 
-# Example Model
+# Album Sales: Model
+
+![inline](sales_line.png)
+
+$$
+Sales = 3.85 \times \text{Advertising Costs} + 5
+$$
 
 ---
 

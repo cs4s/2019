@@ -91,9 +91,9 @@ I'm Ben
 # Sessions (Morning)
 
 - **Artificial Intelligence and Machine Learning**
-	- Types of Machine Learning
+	- Types of Machine Learning algorithms
 	- Solving problems with Machine Learning
-- **Training a Smart Assistant**
+- **Training an Assistant**
 	- Machine Learning for Kids
 	- Training a computer with examples
 
@@ -101,9 +101,9 @@ I'm Ben
 		
 # Sessions (Before Lunch)
 
-- **Representing Data and Identifying Features**
+- **Representing and Collecting Data**
 	- The importance of data
-	- Identifying features when creating solutions
+	- Identifying attributes when creating solutions
 - **Journey to School**
 	- Crowdsourcing data
 	- Evaluating a model
@@ -112,11 +112,9 @@ I'm Ben
 
 # Sessions (Afternoon)
 
-- **How do Computers See?**
-	- Representing images
-	- Image pre-processing
-- **Rock, Paper, Scissors**
+- **Computer Vision**
+	- Exploring how computers 'see'
+	- Recognising features and faces
+- **Snap!**
 	- Taking pictures of examples
 	- Creating a game
-
-
