@@ -37,6 +37,12 @@
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Session: {{ page.title }}</a>
           </li>
           {% endif %}
+          {% if current.size == 5 %}
+          <span class="nav-separator">|</span>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Activity: {{ page.title }}</a>
+          </li>
+          {% endif %}
         {% endif %}
       </ul>
     </div>
