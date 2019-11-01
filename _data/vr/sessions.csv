@@ -1,10 +1,10 @@
 time,title,active,link
-9:00am - 9:15am,Registration and Introductions,Yes,
-9:15am - 9:45am,Virtual Reality in Education,Yes,education
-9:45am - 10:45am,Introducing A-Frame and Glitch,Yes,aframe
+9:00am - 9:15am,Registration and Introductions,No,
+9:15am - 9:45am,Virtual Reality in Education,Yes,intro
+9:45am - 10:45am,Creating and Sharing VR Scenes,Yes,scene
 10:45am - 11:00am,Morning Tea,No,
-11:00am - 11:45am,Your First VR Scene,Yes,scene
-11:45am - 12:30pm,Creating a 3D Photo Viewer,Yes,photos
+11:00am - 11:45am,How VR Works,Yes,works
+11:45am - 12:30pm,3D Positioning and Shapes,Yes,3d
 12:30pm - 1:00pm,Lunch,No,
-1:00pm - 2:00pm,Adding 3D Models to Your Scene,Yes,models
-2:00pm - 3:00pm,Moving Around Your Scene,Yes,movement
+1:00pm - 2:00pm,Images and 3D Models,Yes,assets 
+2:00pm - 3:00pm,Interactions,Yes,i nteractions
