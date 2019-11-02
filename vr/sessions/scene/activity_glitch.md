@@ -2,7 +2,6 @@
 layout: activity
 title: "Using Glitch"
 session_title: "Creating and Sharing VR Scenes"
-session_path: ""
 ---
 
 # {{ page.title }}

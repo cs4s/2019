@@ -16,7 +16,8 @@ title: "3D Positioning and Shapes"
 ## Activities
 
 - [Using the A-Frame Inspector](activity_inspector){: .text-info }
-- [Positioning Entities in A-Frame](activity_positioning){: .text-info }
+- [Positioning Shapes in A-Frame](activity_shapes){: .text-info }
 
 ## Links
+
 
