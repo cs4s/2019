@@ -351,4 +351,12 @@ a.term {
   margin: 1rem 0.2rem 0rem 0rem;
 }
 
+.enter-vr-container {
+  background-color: #a3a3a3; 
+  padding: 1px 3px;
+  margin: 0px 5px;
+}
 
+.enter-vr-icon {
+  color: #ffffff;
+}
