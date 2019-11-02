@@ -143,7 +143,6 @@ If you are getting through the activities quickly, you may want to try to comple
 
 If you get stuck on these challenges, please ask one of the workshop presenters to give you some ideas.
 
-
 <div class="card border-info my-4">
 <div class="card-header">Creating VR with A-Frame: Challenges</div>
 <div class="card-body">
@@ -156,7 +155,6 @@ If you get stuck on these challenges, please ask one of the workshop presenters 
     </ul>
 </div>
 </div>
-
 
 Nice work, you have completed the <i>{{ page.title }}</i> activity!
 In the next session you will learn more about how VR works then learn about the tools in *A-Frame* that can help you position and change the shapes in a VR scene.
