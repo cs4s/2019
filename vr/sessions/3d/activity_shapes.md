@@ -141,9 +141,9 @@ When we group together shapes and use *relative positioning*, it easy for us to 
 
 Copy and paste the snippet below into your Snowman project (remember that our *A-Frame* tags have to be inside of the &lt;a-scene&gt; and &lt;/a-scene&gt; tags!)
 ```
-<a-entity position="-0.5 0.5 -2">
-    <a-box height="0.5" width="0.1" depth="0.05" position="0 0 -0.05" color="#784212"></a-box>
-    <a-box height="0.3" width="0.7" depth="0.05" position="0 0.1 0"></a-box>
+<a-entity position="-0.5 0.25 -2">
+    <a-box height="0.5" width="0.1" depth="0.05" position="0 0 -0.05" color="#784212" shadow></a-box>
+    <a-box height="0.3" width="0.7" depth="0.05" position="0 0.1 0" shadow></a-box>
     <a-text value="3D Snowman" align="center" color="black" position="0 0.1 0.05" width="2"></a-text>
 </a-entity>
 ```
