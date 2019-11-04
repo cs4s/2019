@@ -1,7 +1,7 @@
 ---
 layout: activity
 title: "Creating a 3D Photo Viewer"
-session_title: "3D Positioning and Shapes"
+session_title: "Images and 3D Models"
 ---
 
 # {{ page.title }}
