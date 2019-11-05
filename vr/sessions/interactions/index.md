@@ -16,6 +16,6 @@ title: "Interactions and Animations"
 ## Activities
 
 - [Using Gaze-based Interaction in A-Frame](activity_interactions){: .text-info }
-- [Animating Entities in A-Frame](activity_animation){: .text-info }
+- [Animating Entities in A-Frame](activity_animations){: .text-info }
 
 ## Links
