@@ -14,9 +14,11 @@
         <li class="nav-item {% if page.url contains site.ai_path %} active {% endif %}">
           <a class="nav-link topic-link" href="{{ site.baseurl | append: site.ai_path }}">AI<span class="sr-only">(current)</span></a>
         </li>
+        <!--
         <li class="nav-item {% if page.url contains site.vr_path %} active {% endif %}">
           <a class="nav-link topic-link" href="{{ site.baseurl | append: site.vr_path }}">VR</a>
         </li>
+        -->
         {% if page.url contains site.ai_path or page.url contains site.vr_path %}
           <span class="nav-separator">|</span>
           <li class="nav-item {% if page.url == '/ai/' or page.url == '/vr/' %} active {% endif %}">
