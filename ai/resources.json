@@ -112,6 +112,13 @@
         "TargetAudience": "Everyone"
     },
     {
+        "Title": "Machine Learning for Musicians and Artists",
+        "Link": "https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/info",
+        "Creator": "Rebecca Fiebrink",
+        "Type": "Course",
+        "TargetAudience": "Artists and Musicians"
+    },
+    {
         "Title": "Machine Learning for Kids: Introducing Machine Learning to Kids",
         "Link": "https://dalelane.co.uk/blog/?p=3513",
         "Creator": "Dale Lane",
@@ -133,6 +140,13 @@
         "TargetAudience": "K-12 Teachers"
     },
     {
+        "Title": "MIT AI Ethics Education Curriculum",
+        "Link": "https://docs.google.com/document/d/1e9wx9oBg7CR0s5O7YnYHVmX7H7pnITfoDxNdrSGkp60/view#",
+        "Creator": "Blakeley H. Payne",
+        "Type": "Teaching Resources",
+        "TargetAudience": "K-12 Teachers and Students"
+    },
+    {
         "Title": "Raspberry Pi Foundation: Scratch Machine Learning",
         "Link": "https://projects.raspberrypi.org/en/pathways/scratch-machine-learning",
         "Creator": "Raspberry Pi Foundation",
@@ -145,6 +159,13 @@
         "Creator": "David Cournapeau",
         "Type": "Software",
         "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Teachable Arcade Lesson Plan (for Teachable Machine)",
+        "Link": "https://docs.google.com/document/d/11HVDvwE8heI1o6Ag0py64KVoyN1cR1PUYMA92tMRQ4E/view",
+        "Creator": "Ryan Flomerfelt Mather",
+        "Type": "Teaching Resources",
+        "TargetAudience": "K-12 Students"
     },
     {
         "Title": "Teachable Machine Tutorial (Version 1 from 2017)",
@@ -190,10 +211,19 @@
     },
     {
         "Title": "Understanding the four types of AI, from reactive robots to self-aware beings",
-        "Link": "https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616 ",
+        "Link": "https://theconversation.com/understanding-the-four-types-of-ai-from-reactive-robots-to-self-aware-beings-67616",
         "Creator": "Arend Hintze",
         "Type": "Article",
         "TargetAudience": "K-12 Teachers"
+    },
+    {
+        "Title": "Using Teachable Machine in the school classroom",
+        "Link": "https://medium.com/@michellecarney/using-teachable-machine-in-the-d-school-classroom-96be1ba6a4f9",
+        "Creator": "Michelle Carney",
+        "Type": "Article",
+        "TargetAudience": "Everyone"
     }
+
+    
 ]
 
