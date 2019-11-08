@@ -147,6 +147,20 @@
         "TargetAudience": "Everyone"
     },
     {
+        "Title": "Teachable Machine Tutorial (Version 1 from 2017)",
+        "Link": "https://teachablemachine.withgoogle.com/v1/",
+        "Creator": "Google",
+        "Type": "Website",
+        "TargetAudience": "Everyone"
+    },
+    {
+        "Title": "Teachable Machine (Version 2)",
+        "Link": "https://teachablemachine.withgoogle.com/",
+        "Creator": "Google",
+        "Type": "Website",
+        "TargetAudience": "Everyone"
+    },
+    {
         "Title": "Teaching Artificial Intelligence in Kindergarten",
         "Link": "https://earlyinsights.org/teaching-artificial-intelligence-in-kindergarten-6296f664bf23",
         "Creator": "Ann Gadzikowski",
