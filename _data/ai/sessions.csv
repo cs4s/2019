@@ -1,10 +1,11 @@
-time,title,active,link
-8:45am - 9:00am,Registration and Introductions,No,
-9:00am - 9:45am,Artificial Intelligence and Machine Learning,Yes,intro
-9:45am - 10:45am,Training an Assistant,Yes,assistant
-10:45am - 11:00am,Morning Tea,No,
-11:00am - 11:45am,Representing and Collecting Data,Yes,data
-11:45am - 12:30pm,Journey to School,Yes,journey
-12:30pm - 1:00pm,Lunch,No,
-1:00pm - 1:45pm,Computer Vision,Yes,vision
-1:45pm - 3:00pm,Snap!,Yes,snap
+time,title,active,external,link
+8:45am - 9:00am,Registration and Introductions,No,No
+9:00am - 9:45am,Artificial Intelligence and Machine Learning,Yes,No,intro
+9:45am - 10:45am,Training an Assistant,Yes,No,assistant
+10:45am - 11:00am,Morning Tea,No,No
+11:00am - 11:45am,Representing and Collecting Data,Yes,No,data
+11:45am - 12:30pm,Journey to School,Yes,No,journey
+12:30pm - 1:00pm,Lunch,No,No
+1:00pm - 1:45pm,Computer Vision,Yes,No,vision
+1:45pm - 2:50pm,Snap!,Yes,No,snap
+2:50pm - 3:00pm,Wrap-up and Survey,No,Yes,https://docs.google.com/forms/d/e/1FAIpQLSdCJpTamvEHL5E5OMZMfh_XxKNg3dY8Id2vgSi9X7HPeNCr2A/viewform

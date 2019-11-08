@@ -1,10 +1,11 @@
-time,title,active,link
-9:00am - 9:15am,Registration and Introductions,No,
-9:15am - 9:45am,Virtual Reality in Education,Yes,intro
-9:45am - 10:45am,Creating and Sharing VR Scenes,Yes,scene
-10:45am - 11:00am,Morning Tea,No,
-11:00am - 11:45am,How VR Works,Yes,works
-11:45am - 12:30pm,3D Positioning and Shapes,Yes,3d
-12:30pm - 1:00pm,Lunch,No,
-1:00pm - 2:00pm,Images and 3D Models,Yes,assets 
-2:00pm - 3:00pm,Interactions and Animations,Yes,interactions
+time,title,active,external,link
+9:00am - 9:15am,Registration and Introductions,No,No
+9:15am - 9:45am,Virtual Reality in Education,Yes,No,intro
+9:45am - 10:45am,Creating and Sharing VR Scenes,Yes,No,scene
+10:45am - 11:00am,Morning Tea,No,No
+11:00am - 11:45am,How VR Works,Yes,No,works
+11:45am - 12:30pm,3D Positioning and Shapes,Yes,No,3d
+12:30pm - 1:00pm,Lunch,No,No
+1:00pm - 2:00pm,Images and 3D Models,Yes,No,assets 
+2:00pm - 2:50pm,Interactions and Animations,Yes,No,interactions
+2:50pm - 3:00pm,Wrap-up and Workshop Survey,No,Yes,https://docs.google.com/forms/d/e/1FAIpQLSdCJpTamvEHL5E5OMZMfh_XxKNg3dY8Id2vgSi9X7HPeNCr2A/viewform

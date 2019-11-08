@@ -21,6 +21,8 @@ title: CS4S @ UON 2019 - AI Schedule
 			<td>
 			{% if session.active == "Yes" %}
 				<a href="{{ site.baseurl | append: '/ai/sessions/' | append: session.link }}" class="text-info">{{ session.title }}</a>
+			{% elsif session.external == "Yes" %}
+				<a href="{{ session.link }}" class="text-info" target="_blank">{{ session.title }}</a>
 			{% else %}
 				{{ session.title }}
 			{% endif %}
