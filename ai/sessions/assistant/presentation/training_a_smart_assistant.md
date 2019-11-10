@@ -28,9 +28,11 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 
 # Using Machine Learning for Kids
 
-- Usually involves two main steps:
-	- We train a model by giving the computer examples split into different 'buckets', e.g. spam or not spam (*supervised learning*)
-	- Code (e.g. Scratch blocks) are created that use the model to classify new data into these buckets
+Usually involves three main steps:
+
+1. We collect examples related to a problem/solution
+2. We train a model by giving the computer examples split into different 'buckets', e.g. spam or not spam (*supervised learning*)
+3. We use the model with code (e.g. Scratch blocks) to classify new data into these buckets
 
 ---
 

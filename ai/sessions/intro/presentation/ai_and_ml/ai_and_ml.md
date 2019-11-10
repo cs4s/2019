@@ -58,7 +58,7 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 # AI in Curriculum: Secondary
 
 - *Digital Technologies* in *Technology Mandatory 7-8* (e.g. TE4-1DP designs, communicates and evaluates innovative ideas and creative solutions to authentic problems or opportunities)
-- Draft syllabus for *Integrated Computing 7-10* includes AI content, e.g.'explore how artificial intelligence is used to predict patterns of behaviour'
+- Draft syllabus for *Integrated Computing 7-10* includes AI content, e.g. 'explore how artificial intelligence is used to predict patterns of behaviour'
 - Draft syllabus for *Software Engineering* includes AI content, e.g. 'develop algorithms that describe artificial neural networks'
 
 ---

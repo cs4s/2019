@@ -39,7 +39,7 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 # Collecting a Variety of Examples
 
 - A wide variety of examples can improve our Machine Learning models' accuracy
-- Like a survey, we want to collect data from a representative sample (e.g. across ages, genders, income)
+- We aim to collect data from a representative sample, like a survey we want to collect responses across ages, genders, income etc
 - A model that is trained on images could need a variety of images in a variety of lighting conditions
 	- Mistakes could be made, e.g. animals in grass vs snow
 	
@@ -69,7 +69,7 @@ footer: [CS4S 2019 - AI Workshop](https://cs4s.github.com/2019/ai)
 # Coffee Shop: Data to Collect
 
 - Imagine that you can collect pretty much any information about the coffee shop's customers
-- What *attributes* would you collect to use for grouping together 'similar'customers?
+- What *attributes* would you collect to use for grouping together 'similar' customers?
 - Once you had these clusters, what strategies could you use to upsell to these customers?
 
 ---
