@@ -192,7 +192,7 @@ You can find out more about how you can display text in *A-Frame* from the [Text
         <li>Change the colours of the boxes and text used for the sign</li>
         <li>Change the size of the signs</li>
         <li>Add more signs to your scene</li>
-        <li>Change the snowman to be a group of shapes that are *relatively positioned*</li>
+        <li>Change the snowman to be a group of shapes that are <i>relatively positioned</i></li>
         <li>Add more snowmen to your scene</li>
     </ul>
 </div>
@@ -201,4 +201,4 @@ You can find out more about how you can display text in *A-Frame* from the [Text
 Nice work, you have completed the <i>{{ page.title }}</i> activity!
 In the next session you will learn about 3D images and models and how to include these in your *A-Frame* scenes.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

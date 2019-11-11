@@ -21,17 +21,15 @@ In this workshop, you will learn about:
 
 - the types of problems that *Machine Learning* can solve
 - the essential steps in the development of *Machine Learning* solutions
-- how the data that we use to 'teach' a computer can impact how a computer 'learns'. 
+- how the data that we use to 'teach' a computer can impact how a computer 'learns'
 
 Some prior experience with coding is assumed but you can participate in the workshop if you only have had experience with blocks languages (like [Scratch](https://scratch.mit.edu){: class="text-info" target="_blank" }) because the resources we use (*Machine Learning for Kids*) use *Scratch* for the coding components.
 
 ## Creating Virtual Reality Workshop
 
-The VR workshop will focus on creating scenes in VR with [A-Frame VR](https://aframe.io/){: class="text-info" target="_blank" }, which is a free tool for creating VR scenes using web technologies (HTML and *JavaScript*). In this workshop, you will learn:
+The VR workshop will focus on creating scenes in VR with [A-Frame VR](https://aframe.io/){: class="text-info" target="_blank" }, which is a free tool for creating VR scenes using web technologies (HTML and *JavaScript*). 
 
-- the essential VR concepts
-- the differences between commonly available VR headsets 
-- how to create and share VR scenes with [A-Frame](https://aframe.io/){: class="text-info" target="_blank" } 
+In this workshop, you will complete a variety of activities, that involve creating different projects. You can see the list of [activities here]({{ site.baseurl | append: '/vr/activities' }}){: .text-info }.
 
 The workshop will be best suited to teachers that have some prior experience with web development technologies (particularly HTML).
 

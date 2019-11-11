@@ -12,8 +12,8 @@
 
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="./" class="text-info">{{ page.session_title }}</a></li>
-              <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+              <li class="breadcrumb-item"><a href="{{ site.baseurl | append: '/vr/activities' }}" class="text-info">Activities</a></li>
+              <li class="breadcrumb-item active" aria-current="page">{{ page.session_title | append: ': ' | append: page.title }}</li>
             </ol>
           </nav>
 

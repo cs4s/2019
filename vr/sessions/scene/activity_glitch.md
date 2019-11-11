@@ -155,4 +155,4 @@ The [A-Frame's Installation page](https://aframe.io/docs/0.9.0/introduction/inst
 
 Next, you will learn about what *A-Frame* is, how to use it in *Glitch* projects and how to create and share your first VR scene.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

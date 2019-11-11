@@ -159,4 +159,4 @@ If you get stuck on these challenges, please ask one of the workshop presenters 
 Nice work, you have completed the <i>{{ page.title }}</i> activity!
 In the next session you will learn more about how VR works then learn about the tools in *A-Frame* that can help you position and change the shapes in a VR scene.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

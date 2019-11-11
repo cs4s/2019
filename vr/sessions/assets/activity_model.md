@@ -191,4 +191,4 @@ You might have to adjust the *rotation*, *scale* or *position* of the model in t
 Nice work, you have completed the <i>{{ page.title }}</i> activity!
 In the next session you will learn how to include interactions and animations in your scene.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

@@ -107,4 +107,4 @@ The [Hall VR Museum](https://cecropia.github.io/thehallaframe/#){: class="text-i
 
 In the next session you will learn about how animations can be added to a scene in *A-Frame*.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

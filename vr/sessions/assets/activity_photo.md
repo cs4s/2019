@@ -128,4 +128,4 @@ Try it out on your phone and a *Cardboard* headset or one of the provided *Oculu
 
 In the next activity you will learn how to include 3D models in your scene.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

@@ -124,4 +124,4 @@ You have completed all of the workshop's activities.
 Nice work!
 We hope that you have learned some of the main features of *A-Frame*, which you can use for your own VR scenes.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

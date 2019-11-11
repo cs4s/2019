@@ -226,4 +226,4 @@ Note, that the camera starts by facing in the negative z direction, so shapes sh
 
 In the next activity, you will learn about the different shapes can be added to *A-Frame* scnes and you will use your knowledge of positioning to combine multiple shapes in one scene.
 
-[Back to Session Page](./){: class="btn btn-outline-info session-nav-button" }
+[Back to Activities Page]({{ site.baseurl | append: '/vr/activities'}}){: class="btn btn-outline-info session-nav-button" }

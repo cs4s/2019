@@ -14,37 +14,44 @@
         <li class="nav-item {% if page.url contains site.ai_path %} active {% endif %}">
           <a class="nav-link topic-link" href="{{ site.baseurl | append: site.ai_path }}">AI<span class="sr-only">(current)</span></a>
         </li>
-        <!--
         <li class="nav-item {% if page.url contains site.vr_path %} active {% endif %}">
           <a class="nav-link topic-link" href="{{ site.baseurl | append: site.vr_path }}">VR</a>
         </li>
-        -->
         {% if page.url contains site.ai_path or page.url contains site.vr_path %}
           <span class="nav-separator">|</span>
           <li class="nav-item {% if page.url == '/ai/' or page.url == '/vr/' %} active {% endif %}">
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] }} ">About<span class="sr-only">(current)</span></a>
           </li>
+        {% endif %}
+        {% if page.url contains site.ai_path %}
           <li class="nav-item {% if page.url contains site.sessions_path and current.size < 4 %} active {% endif %}">
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/sessions' }}">Sessions</a>
-          </li>
-          <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
-            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/resources' }}">Resources</a>
           </li>
           <li class="nav-item {% if page.url contains site.glossary_path %} active {% endif %}">
             <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/glossary' }}">Glossary</a>
           </li>
-          {% if current.size == 4 %}
-          <span class="nav-separator">|</span>
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Session: {{ page.title }}</a>
+        {% endif %}
+        {% if page.url contains site.vr_path %}
+          <li class="nav-item {% if page.url contains site.activities_path %} active {% endif %}">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/activities' }}">Activities</a>
           </li>
-          {% endif %}
-          {% if current.size == 5 %}
-          <span class="nav-separator">|</span>
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Activity: {{ page.title }}</a>
+        {% endif %}
+        {% if page.url contains site.ai_path or page.url contains site.vr_path %}
+          <li class="nav-item {% if page.url contains site.resources_path %} active {% endif %}">
+            <a class="nav-link" href="{{ site.baseurl | append: '/' | append: current[1] | append: '/resources' }}">Resources</a>
           </li>
-          {% endif %}
+        {% endif %}
+        {% if current.size == 4 %}
+        <span class="nav-separator">|</span>
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Session: {{ page.title }}</a>
+        </li>
+        {% endif %}
+        {% if current.size == 5 %}
+        <span class="nav-separator">|</span>
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ site.baseurl | append: '/' | append: page.url }}">Activity: {{ page.title }}</a>
+        </li>
         {% endif %}
       </ul>
     </div>
